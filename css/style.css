@@ -1,0 +1,462 @@
+/* ---------------- */
+/* HERO SECTION */
+/* ---------------- */
+.section-hero {
+  background-color: #dce9f1;
+  padding-bottom: 0;
+  height: 100vh;
+}
+
+.hero-wrapper {
+  max-width: 130rem;
+  margin: 0 auto;
+  padding: 1.6rem 3.2rem;
+  height: 100%;
+}
+
+.hero-service-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.hero-service-list li {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+/* ---------------- */
+/* SERVICE SECTION */
+/* ---------------- */
+.section-services {
+  padding-top: 20.6rem;
+}
+
+.service {
+  padding: 3.2rem 3.2rem;
+  background-color: rgba(255, 111, 65, 0.025);
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  font-size: 1.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  transition: all 0.3s;
+}
+
+.service:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.15);
+}
+
+.service-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  list-style: circle;
+}
+
+.section-services .grid {
+  gap: 4.8rem;
+}
+
+/* ---------------- */
+/* ABOUT US SECTION */
+/* ---------------- */
+.section-about-us img {
+  width: 100%;
+}
+
+/* ---------------- */
+/* CEO SECTION */
+/* ---------------- */
+.ceo-container {
+  padding: 3.2rem 6.4rem !important;
+  max-width: 100rem !important;
+  position: relative;
+  gap: 9.6rem !important;
+}
+
+.ceo-img {
+  position: relative;
+}
+
+.ceo-img img {
+  position: absolute;
+  top: -15rem;
+  width: 100%;
+}
+
+/* ---------------- */
+/* CONTACT SECTION */
+/* ---------------- */
+.section-form {
+  background-color: #dce9f1;
+  height: 100vh;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.contact-wrapper {
+  height: 100%;
+  align-items: center;
+  column-gap: 0rem !important;
+}
+
+.form-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.form .button {
+  align-self: start;
+}
+
+.footer-section {
+  border-top: 1px solid #eee;
+  padding-top: 12.8rem;
+  padding-bottom: 2.4rem;
+}
+
+.grid--footer {
+  grid-template-columns: 1.5fr 1fr 1fr 1.5fr;
+}
+
+.footer-title {
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 3.2rem;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  list-style: none;
+}
+
+.footer-link {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  transition: all 0.3s;
+}
+
+.footer-link:hover {
+  color: #333;
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 3.2rem;
+}
+
+.logo-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.social-row {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.social-row .footer-link {
+  font-size: 2.4rem;
+}
+
+.copyright {
+  font-size: 1.4rem;
+  line-height: 1.66;
+  margin-top: auto;
+}
+
+.address-links {
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+.margin-bottom-footer {
+  margin-bottom: 2.4rem;
+}
+
+.lg-footer-text {
+  font-size: 3rem;
+  opacity: 70%;
+}
+
+.inwolve {
+  padding-top: 1.6rem;
+  margin-top: 9.6rem;
+  border-top: 1px solid #cccccc;
+  text-align: center;
+  color: #cccccc;
+}
+
+/* ---------------- */
+/* HEADER SECTION */
+/* ---------------- */
+.header {
+  padding: 2.4rem 4.8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #dce9f1;
+  position: relative;
+}
+
+.header-row {
+  padding: 2.4rem 4.8rem;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.main-nav {
+  display: flex;
+  width: 100%;
+}
+
+.main-nav .button {
+  margin-left: auto;
+}
+
+.main-nav-list {
+  overflow-x: hidden;
+  margin-left: auto;
+  list-style: none;
+  display: flex;
+  gap: 12.8rem;
+  align-items: center;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: #09527d;
+}
+
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.btn-mobile-nav {
+  display: none;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
+.sticky .header {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.97);
+  height: 8rem;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  z-index: 999;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+}
+
+.sticky .hero-section {
+  margin-top: 8rem;
+}
+
+/* ---------------- */
+/* ABOUT US PAGE */
+/* ---------------- */
+.section-about-us-page-3 {
+  background-color: #dce9f1;
+  padding-bottom: 0;
+  height: 75vh;
+}
+
+.about-us-image-container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.about-us-image-container img {
+  width: auto;
+}
+
+.paragraph-div {
+  display: flex;
+  align-items: center;
+}
+
+.image-and-text-section {
+  padding-top: 20.8rem;
+}
+
+/* ---------------- */
+/* SERVICES PAGE: SERVICES SECTION */
+/* ---------------- */
+.services-items {
+  gap: 3.2rem !important;
+}
+
+.service-item {
+  display: grid;
+  grid-template-columns: 2fr 4fr;
+  align-items: center;
+  background-color: rgba(255, 111, 65, 0.0125);
+  padding: 1.6rem 1.2rem;
+  border-radius: 12px;
+  border: 1px solid rgba(9, 82, 125, 0.17);
+  transition: all 0.3s;
+}
+
+.service-item:hover {
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.15);
+  transform: translateY(-1.2rem);
+}
+
+.service-item:last-child {
+  grid-column: 2;
+}
+
+/* ---------------- */
+/* SERVICES PAGE: OTHER SERVICES SECTION */
+/* ---------------- */
+.services-container {
+  color: black;
+  gap: 4.8rem;
+}
+.services-container h3 {
+  font-size: 3rem;
+}
+
+.statutory-keeping,
+.accounting-services,
+.secretarial-services {
+  padding: 3.2rem 6.4rem;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  border-radius: 48px;
+  display: flex;
+  flex-direction: column;
+}
+
+.statutory-keeping {
+  grid-row: 1/3;
+}
+
+.statutory-keeping-services-list,
+.accounting-services-list,
+.secretarial-services-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+/* ---------------- */
+/* SERVICES PAGE: REST SERVICES SECTION */
+/* ---------------- */
+.other-service {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 12px;
+  overflow: hidden;
+  transition: all 0.3s;
+}
+
+.other-service:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+
+.other-service img {
+  width: 100%;
+}
+
+.other-service-content {
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+}
+
+.other-service-tags {
+  display: flex;
+  gap: 0.4rem;
+  margin-bottom: 1.2rem;
+}
+
+.other-service-tag {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #333;
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  border-radius: 100px;
+}
+
+.other-service-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.other-service-attributes {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.other-service-attribute {
+  font-size: 1.8rem;
+  display: flex;
+  gap: 1.6rem;
+}
+
+.other-service-icon {
+  color: #09527d;
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.rest-services p {
+  color: #333;
+  font-size: 3rem;
+}
+
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  line-height: 1.2;
+}
